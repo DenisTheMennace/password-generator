@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    
+}
+
+#random-password {
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+}
