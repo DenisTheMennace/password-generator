@@ -27,11 +27,33 @@
       <button id="generate-password-btn" onclick="getRandomPassword()">Generate passwords</button>
 
       <div id="line"></div>
-      <div id="password-length">
+      <div id="password-config">
         <p id="password-length-p">
           Password length:
-          <input type="input" id="password-length-input" /> letters
+          <input type="input" id="password-length-input" onchange="lengthChanged()" /> characters
+          <br />
+          <em> Max: 20 characters</em>
         </p>
+        <div id="checkboxes">
+          <p id="symbols-config-p">
+            Symbols:
+            <input
+              type="checkbox"
+              id="symbols-config-checkbox"
+              onchange="checkboxChanged()"
+              checked
+            />
+          </p>
+          <p id="numbers-config-p">
+            Numbers:
+            <input
+              type="checkbox"
+              id="numbers-config-checkbox"
+              onchange="checkboxChanged()"
+              checked
+            />
+          </p>
+        </div>
       </div>
 
       <div id="passwords">
@@ -39,6 +61,7 @@
         <input id="password-two" class="password" type="text" onclick="copyText2()" readonly />
       </div>
       <script src="index.js"></script>
+      <p id="copy-p">Click on a password to copy! 📋</p>
     </div>
   </body>
 </html>
