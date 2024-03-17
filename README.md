@@ -1,23 +1,7 @@
-See it live at https://password-gen-solo-project.netlify.app/
+See the website live at https://password-gen-solo-project.netlify.app/
 
-# co22a4f7b8aa626c40339afe6
+# Password Generator Project
+Created by Denis Yurchenko
 
-Quick start:
-
-```
-$ npm install
-$ npm start
-````
-
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+This is a solo project by Scrimba.com, where you must create a password generator.
+This website contains many different configuring options such as changing the length of the password, wether you want to have Numbers or Symbols, and you can click any password shown to copy it to your clipboard. 
