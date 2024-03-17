@@ -1,11 +1,44 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div id="random-password">
-            <h1 id="title">Generate a <br><span id="style-random">random password</span></h1>
-            <script src="index.js"></script>
-        </div>
-    </body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="random-password">
+      <h1 id="title">Generate a <br /><span id="style-random">random password</span></h1>
+      <p id="desc">Never use an insecure password again.</p>
+      <button id="generate-password-btn" onclick="getRandomPassword()">Generate passwords</button>
+
+      <div id="line"></div>
+      <div id="password-length">
+        <p id="password-length-p">
+          Password length:
+          <input type="input" id="password-length-input" /> letters
+        </p>
+      </div>
+
+      <div id="passwords">
+        <input id="password-one" class="password" type="text" onclick="copyText1()" readonly />
+        <input id="password-two" class="password" type="text" onclick="copyText2()" readonly />
+      </div>
+      <script src="index.js"></script>
+    </div>
+  </body>
 </html>
