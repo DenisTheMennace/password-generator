@@ -4,4 +4,4 @@ See the website live at https://password-gen-solo-project.netlify.app/
 Created by Denis Yurchenko
 
 This is a solo project by Scrimba.com, where you must create a password generator.
-This website contains many different configuring options such as changing the length of the password, changing wether you want to have Numbers or Symbols, and you can click any password shown to copy it to your clipboard. 
+This website contains many configuring options such as changing the password length, changing whether you want to have Numbers or Symbols, and clicking any password shown to copy it to your clipboard. 
